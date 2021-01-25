@@ -16,7 +16,7 @@ class Dataa extends CI_Controller
         $this->load->view('Templates/Header', $data);
         $this->load->view('Templates/Topbar');
         $this->load->view('Templates/Sidebar');
-        $this->load->view('V_data');
+        $this->load->view('V_data', $data);
         $this->load->view('Templates/Footer');
     }
     function tambah()
